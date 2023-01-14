@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>接管控制受害网站</string>
+  <key>nodeid</key><string>e9e4083a-96d3-4373-a47f-c7ad1726b68b</string>
+  <key>modified_time</key><integer>1673051699</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1673051699</integer>
+  <key>order</key><integer>12</integer>
+</dict>
+</node>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>expanded</key><true/>
+  <key>title</key><string>015 Operators Precedence</string>
+  <key>nodeid</key><string>66aef2ed-1a6a-4659-8bd4-9dffe1315bd6</string>
+  <key>modified_time</key><integer>1671699662</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>application/x-notebook-dir</string>
+  <key>created_time</key><integer>1671699662</integer>
+  <key>info_sort_dir</key><integer>1</integer>
+  <key>order</key><integer>13</integer>
+  <key>info_sort</key><string>order</string>
+</dict>
+</node>

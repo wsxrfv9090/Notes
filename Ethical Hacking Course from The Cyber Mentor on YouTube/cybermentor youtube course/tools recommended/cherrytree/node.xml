@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>CherryTree</string>
+  <key>nodeid</key><string>c4451280-b68c-4224-b46b-62f0ce142e11</string>
+  <key>modified_time</key><integer>1667897462</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1667897394</integer>
+  <key>order</key><integer>2</integer>
+</dict>
+</node>

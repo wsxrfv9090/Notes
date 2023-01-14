@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>expanded</key><true/>
+  <key>title</key><string>016 Coding challenge#1</string>
+  <key>nodeid</key><string>849d82b3-dd93-4ce6-987e-8c0df6953822</string>
+  <key>modified_time</key><integer>1671700399</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>application/x-notebook-dir</string>
+  <key>created_time</key><integer>1671700399</integer>
+  <key>info_sort_dir</key><integer>1</integer>
+  <key>order</key><integer>14</integer>
+  <key>info_sort</key><string>order</string>
+</dict>
+</node>

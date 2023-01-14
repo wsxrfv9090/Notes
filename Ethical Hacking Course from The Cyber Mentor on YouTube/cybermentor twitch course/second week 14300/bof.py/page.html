@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>bof.py</title>
+</head><body><img src="image.png" /><br/>
+<br/>
+#1 declaring python2<br/>
+#2 Importing modules: sys, socket<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; the socket module allows us to connect over these two sockets: <img src="image 2.png" />, <img src="image 3.png" /><br/>
+&nbsp; &nbsp; &nbsp; &nbsp; Which is basiclly an ipv4 and a port.<br/>
+#5 buffer is a string with a handred "A"s in it.<br/>
+#9 Sending a connection<br/>
+#10 To this Ip and this port<br/>
+#11 And we are sending a message + that a handred "A"s<br/>
+#12 Close that connection<br/>
+#13 Sleep for a second<br/>
+#14 Buffer becomes two handred "A"s<br/>
+and it'll repeat over and over again from #9 to #14, as long as the connection works.<br/>
+<br/>
+and if we break this program, which is what fuzzing is anticipated to do,<br/>
+#17 will print out where we crashed it, and how big is the buffer in terms of bytes.<br/>
+and then #18 close out</body></html>

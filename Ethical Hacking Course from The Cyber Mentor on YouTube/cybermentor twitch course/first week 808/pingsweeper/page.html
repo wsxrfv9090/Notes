@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>PingSweeper</title>
+</head><body>nano ipsweep.sh<br/>
+create a shell script<br/>
+<img src="image.png" /><br/>
+declare that you are running this in bash<br/>
+<img src="image 2.png" /><br/>
+if you use js it should be #!/bin/javascript<br/>
+<br/>
+for loop<br/>
+for .. in .., we want to do something until its done.<br/>
+<img src="image 3.png" /><br/>
+<br/>
+ip is a name we gave and can be anything.<br/>
+seq 1 254 means from 1 to 254.<br/>
+<img src="image 4.png" /><br/>
+<br/>
+$1 means user input<br/>
+<img src="image 5.png" /><br/>
+when we use it we have to use it in the console like this:<br/>
+<img src="image 6.png" /><br/>
+the $1 means 192.168.71<br/>
+and the $ip means the name ip we just declared here<br/>
+<img src="image 7.png" /><br/>
+so the number we go from 192.168.71.1 and all the way to 192.71.1.254<br/>
+<br/>
+grep "64 bytes" means grab the line out<br/>
+<img src="image 8.png" /><br/>
+we just want to have the ip here so we first grep this single line out like this:<br/>
+<br/>
+<img src="image 9.png" /><br/>
+then use cut like this:<br/>
+<img src="image 10.png" /><br/>
+this means that cut it out, using the delimiter " ", and cut is going to take a field of that delimiter and cut it out.<br/>
+hence the outcome<br/>
+then use tr to remove the colon<br/>
+<img src="image 11.png" /><br/>
+<br/>
+that's why in the sh file we used it like this:<br/>
+<img src="image 12.png" /><br/>
+<br/>
+<br/>
+and fi is the end of the file<br/>
+<img src="image 13.png" /><br/>
+<br/>
+after the file is created.<br/>
+<br/>
+before &nbsp;you use it you have to use chmod +x to give it access to run:<br/>
+like this:<br/>
+<img src="image 15.png" /><br/>
+then you can use it like this:<br/>
+<img src="image 14.png" /><br/>
+<br/>
+now we can improve it like this:<br/>
+<img src="image 16.png" /><br/>
+<br/>
+then use nmap to sweep those ip like this:<br/>
+you can change the ; to &amp;<br/>
+that can go faster<br/>
+-p means port<br/>
+-T4 means time 4 means fast<br/>
+<img src="image 17.png" /><br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+</body></html>

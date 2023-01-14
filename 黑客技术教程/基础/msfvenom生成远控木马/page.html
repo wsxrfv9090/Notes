@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>MSFvenom生成远控木马</title>
+</head><body><img src="image.png" /><br/>
+<br/>
+<br/>
+利用上述命令在生成的exe文件（可以就在非root下完成，会在普通的home文件夹中）<br/>
+将该文件发送到目标电脑上运行之前<br/>
+需要打开相应的kali的端口来进行接收<br/>
+进入msfconsole.<br/>
+<img src="image 2.png" /><br/>
+设置payload为windows/x64……/reverse_tcp<br/>
+进去之后设置lhost为kali机器的ip，lport为上面后门程序的端口<br/>
+设置完毕后等待程序运行就可以获取meterpreter了<br/>
+输入help可以看到meterpreter可以干什么事情</body></html>
