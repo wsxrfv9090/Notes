@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>034 Functions Declaration vs Expressions</string>
+  <key>nodeid</key><string>c0afdde6-da8b-4032-8bf2-6c507d9ad430</string>
+  <key>modified_time</key><integer>1675180134</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1675179593</integer>
+  <key>info_sort_dir</key><integer>1</integer>
+  <key>order</key><integer>2</integer>
+  <key>info_sort</key><string>order</string>
+</dict>
+</node>

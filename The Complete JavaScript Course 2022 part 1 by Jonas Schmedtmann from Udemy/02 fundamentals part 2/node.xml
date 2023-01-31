@@ -2,6 +2,7 @@
 <node>
 <version>6</version>
 <dict>
+  <key>expanded</key><true/>
   <key>title</key><string>02: Fundamentals Part 2</string>
   <key>nodeid</key><string>b0a3ec89-4b41-4be2-b4d0-1cdfbcd16ed5</string>
   <key>modified_time</key><integer>1673594472</integer>
