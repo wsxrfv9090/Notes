@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>045 Coding Challenge#3</string>
+  <key>nodeid</key><string>71f55a97-6e60-4b8d-8e59-9ff153a7480a</string>
+  <key>modified_time</key><integer>1677328993</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1677323635</integer>
+  <key>info_sort_dir</key><integer>1</integer>
+  <key>order</key><integer>12</integer>
+  <key>info_sort</key><string>order</string>
+</dict>
+</node>

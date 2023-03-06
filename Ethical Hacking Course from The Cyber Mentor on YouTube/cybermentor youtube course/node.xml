@@ -2,7 +2,7 @@
 <node>
 <version>6</version>
 <dict>
-  <key>expanded</key><false/>
+  <key>expanded</key><true/>
   <key>title</key><string>CyberMentor Youtube Course</string>
   <key>nodeid</key><string>cbc25621-2ad9-43bd-9645-2229a4f80747</string>
   <key>modified_time</key><integer>1673166094</integer>

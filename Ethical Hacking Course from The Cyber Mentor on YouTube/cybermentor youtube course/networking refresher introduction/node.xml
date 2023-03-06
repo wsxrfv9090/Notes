@@ -2,7 +2,7 @@
 <node>
 <version>6</version>
 <dict>
-  <key>expanded</key><false/>
+  <key>expanded</key><true/>
   <key>title</key><string>Networking Refresher: Introduction</string>
   <key>nodeid</key><string>a6e1e29c-793c-487a-9532-745d4501a3ed</string>
   <key>modified_time</key><integer>1667897636</integer>
