@@ -63,30 +63,10 @@
         </array>
         <key>windows</key><dict>
             <key>ids</key><dict>
-                <key>144dfc98-e25f-4775-af09-dfdcf2a83091</key><dict>
-                    <key>viewerid</key><string>871e3087-5add-4cb2-9392-e82c98810c06</string>
-                    <key>viewer_type</key><string>tabbed_viewer</string>
-                </dict>
             </dict>
         </dict>
         <key>viewers</key><dict>
             <key>ids</key><dict>
-                <key>2b6e69c9-f57b-48b3-ad25-1afef72f3a5f</key><dict>
-                    <key>selected_treeview_nodes</key><array>
-                    </array>
-                    <key>selected_listview_nodes</key><array>
-                    </array>
-                </dict>
-                <key>871e3087-5add-4cb2-9392-e82c98810c06</key><dict>
-                    <key>tabs</key><array>
-                        <dict>
-                            <key>viewerid</key><string>2b6e69c9-f57b-48b3-ad25-1afef72f3a5f</string>
-                            <key>viewer_type</key><string>three_pane_viewer</string>
-                            <key>name</key><string></string>
-                        </dict>
-                    </array>
-                    <key>current_viewer</key><string>2b6e69c9-f57b-48b3-ad25-1afef72f3a5f</string>
-                </dict>
             </dict>
         </dict>
         <key>default_font</key><string>Sans 10</string>

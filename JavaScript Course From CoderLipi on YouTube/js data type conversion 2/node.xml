@@ -2,6 +2,7 @@
 <node>
 <version>6</version>
 <dict>
+  <key>expanded</key><true/>
   <key>title</key><string>JS Data Type Conversion</string>
   <key>nodeid</key><string>3d3732de-cdc1-43fb-9f8d-61f2d869da9c</string>
   <key>modified_time</key><integer>1670140217</integer>

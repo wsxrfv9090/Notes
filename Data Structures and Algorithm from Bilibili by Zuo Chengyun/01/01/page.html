@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>01</title>
+</head><body>int a = 10;<br/>
+int b = 20;<br/>
+<br/>
+a = a ^ b<br/>
+b = a ^ b<br/>
+a = a ^ b<br/>
+<br/>
+yes<br/>
+<br/>
+for (int i = 0; i &lt; N ;i ++)<br/>
+&nbsp; &nbsp; &nbsp;for (int j = 0; j &lt; n; j++) {<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;swap (i, j)<br/>
+}<br/>
+<br/>
+no<br/>
+<br/>
+this swaping method can't be used to swap same elements, because it will change the original value to zero<br/>
+the latter method of using ^ to swap, can be applied to the arr[i] and arr[j]<br/>
+that means it will change the arr[i] element when i goes in the loop at a certain point and is equal to j<br/>
+<br/>
+</body></html>
