@@ -73,8 +73,10 @@
             <key>ids</key><dict>
                 <key>be14bcbb-5b35-488e-bea4-8a4ee6f6e978</key><dict>
                     <key>selected_treeview_nodes</key><array>
+                        <string>972ca03f-625a-470e-874c-1c0f03bfeb4f</string>
                     </array>
                     <key>selected_listview_nodes</key><array>
+                        <string>972ca03f-625a-470e-874c-1c0f03bfeb4f</string>
                     </array>
                 </dict>
                 <key>871e3087-5add-4cb2-9392-e82c98810c06</key><dict>
