@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>1. strtok_s</title>
+</head><body><br/>
+<br/>
+header in c: string.h<br/>
+<br/>
+<br/>
+<img src="image.png" /><ul><ul><ul>char *__cdecl strtok(char *_String, const char *_Delimiter)</ul>
+</ul>
+</ul>
+<br/>
+<br/>
+<img src="image 2.png" /><br/>
+<br/>
+<ul><li style="list-style-type: none"><ul><li style="list-style-type: none"><ul><li style="list-style-type: none">#include &lt;stdio.h&gt;</li>
+<li style="list-style-type: none">#include &lt;string.h&gt;</li>
+<li style="list-style-type: none">#include &lt;stdlib.h&gt;</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+&nbsp;<ul><li style="list-style-type: none"><ul><li style="list-style-type: none"><ul><li style="list-style-type: none">char string[] = "A string\tof ,,tokens\nand some &nbsp;more tokens";</li>
+<li style="list-style-type: none">char seps[] &nbsp; = " ,\t\n";</li>
+<li style="list-style-type: none">char *token=NULL;</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+&nbsp;<ul><li style="list-style-type: none"><ul><li style="list-style-type: none"><ul><li style="list-style-type: none">int main(void){</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+&nbsp;&#09;&#09;&#09;&#09;printf( "Tokens:\n" );<br/>
+&nbsp; &nbsp; &#09;&#09;&#09;&#09;token = strtok( string, seps);<br/>
+&#09;&#09;&#09;&#09;while(token !=NULL){<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#09;&#09;&#09;printf("%s\n",token);<br/>
+&#09;&#09; &#09;&#09;token=strtok(NULL,seps);//strtok第一个参数传入NULL，使用之前保存的SAVE_PTR定位下一个待处理的字符的位置<br/>
+&#09;&#09;&#09;&#09;}<br/>
+&#09;&#09;&#09;return 0;<ul><li style="list-style-type: none"><ul><li style="list-style-type: none"><ul><li style="list-style-type: none">}</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<img src="image 3.png" /><br/>
+<br/>
+<ul><li style="list-style-type: none"><ul><li style="list-style-type: none">Tokens:</li>
+<li style="list-style-type: none">A</li>
+<li style="list-style-type: none">tokens</li>
+<li style="list-style-type: none">and</li>
+<li style="list-style-type: none">some</li>
+<li style="list-style-type: none">more</li>
+<li style="list-style-type: none">tokens</li>
+</ul>
+</li>
+</ul>
+<img src="image 4.png" /><br/>
+<ul><li style="list-style-type: none"><ul><li style="list-style-type: none"><ul><li style="list-style-type: none">#include &lt;stdlib.h&gt;</li>
+<li style="list-style-type: none">#include &lt;stdio.h&gt;</li>
+<li style="list-style-type: none">#include &lt;string.h&gt;</li>
+<li style="list-style-type: none">&nbsp;</li>
+<li style="list-style-type: none">int main()</li>
+<li style="list-style-type: none">{</li>
+<li style="list-style-type: none">&#09;char string[] = "A string\tof ,,tokens\nand some &nbsp;more tokens";</li>
+<li style="list-style-type: none">&#09;char seps[] = " ,\t\n";</li>
+<li style="list-style-type: none">&#09;char *token = NULL;</li>
+<li style="list-style-type: none">&#09;printf("Tokens:\n");</li>
+<li style="list-style-type: none">&#09;char* ptr = NULL;</li>
+<li style="list-style-type: none">&#09;token = strtok_s(string, seps, &amp;ptr);//相较于strtok()函数，strtok_s函数需要用户传入一个指针，用于函数内部判断从哪里开始处理字符串</li>
+<li style="list-style-type: none">&#09;while (token != NULL) {</li>
+<li style="list-style-type: none">&#09;&#09;printf("%s\n", token);</li>
+<li style="list-style-type: none">&#09;&#09;token = strtok_s(NULL, seps, &amp;ptr);//其他的使用与strtok()函数相同</li>
+<li style="list-style-type: none">&#09;}</li>
+<li style="list-style-type: none">&#09;return 0;</li>
+<li style="list-style-type: none">}</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<br/>
+<br/>
+<img src="image 5.png" /><br/>
+<br/>
+<ul><li style="list-style-type: none"><ul><li style="list-style-type: none">Tokens:</li>
+<li style="list-style-type: none">A</li>
+<li style="list-style-type: none">tokens</li>
+<li style="list-style-type: none">and</li>
+<li style="list-style-type: none">some</li>
+<li style="list-style-type: none">more</li>
+<li style="list-style-type: none">tokens</li>
+<li style="list-style-type: none"></li>
+<li style="list-style-type: none"></li>
+</ul>
+</li>
+</ul>
+<img src="image 6.png" /><ul><li style="list-style-type: none"></li>
+<li style="list-style-type: none"></li>
+<li style="list-style-type: none"></li>
+<li style="list-style-type: none"><ul><li style="list-style-type: none"><ul><li style="list-style-type: none">#include &lt;iostream&gt;</li>
+<li style="list-style-type: none">#include &lt;fstream&gt;</li>
+<li style="list-style-type: none">#include &lt;stdlib.h&gt;</li>
+<li style="list-style-type: none">#include &lt;string.h&gt;</li>
+<li style="list-style-type: none">#include &lt;string&gt;</li>
+<li style="list-style-type: none">#include &lt;vector&gt;</li>
+<li style="list-style-type: none">&nbsp;</li>
+<li style="list-style-type: none">using namespace std;</li>
+<li style="list-style-type: none">&nbsp;</li>
+<li style="list-style-type: none">struct Point {//构造一个Point类，用来存储点的信息（三坐标）</li>
+<li style="list-style-type: none">&#09;double x, y, z;</li>
+<li style="list-style-type: none">&#09;Point() :x(0), y(0), z(0) {}</li>
+<li style="list-style-type: none">&#09;Point(int a, int b, int c) :x(a), y(b), z(c) {} </li>
+<li style="list-style-type: none">&#09;void printPoints() { cout &lt;&lt; "x:" &lt;&lt; x &lt;&lt; " y:" &lt;&lt; y &lt;&lt; " z:" &lt;&lt; z &lt;&lt; endl; }</li>
+<li style="list-style-type: none">};</li>
+<li style="list-style-type: none">&nbsp;</li>
+<li style="list-style-type: none">int main()</li>
+<li style="list-style-type: none">{</li>
+<li style="list-style-type: none">&#09;string tmp;</li>
+<li style="list-style-type: none">&#09;ifstream inFile("test.txt");//txt文件名</li>
+<li style="list-style-type: none">&#09;vector&lt;Point&gt; points;</li>
+<li style="list-style-type: none">&#09;if (inFile) {</li>
+<li style="list-style-type: none">&#09;&#09;char string[100];</li>
+<li style="list-style-type: none">&#09;&#09;while (getline(inFile, tmp)) {</li>
+<li style="list-style-type: none">&#09;&#09;&#09;strcpy_s(string, tmp.c_str());</li>
+<li style="list-style-type: none">&#09;&#09;&#09;double a, b, c;</li>
+<li style="list-style-type: none">&#09;&#09;&#09;char seps[] = "|";</li>
+<li style="list-style-type: none">&#09;&#09;&#09;char* token = NULL;</li>
+<li style="list-style-type: none">&#09;&#09;&#09;char* ptr = NULL;</li>
+<li style="list-style-type: none">&#09;&#09;&#09;//存入x</li>
+<li style="list-style-type: none">&#09;&#09;&#09;token = strtok_s(string, seps, &amp;ptr);</li>
+<li style="list-style-type: none">&#09;&#09;&#09;a = atof(token);</li>
+<li style="list-style-type: none">&#09;&#09;&#09;//存入y</li>
+<li style="list-style-type: none">&#09;&#09;&#09;token = strtok_s(NULL, seps, &amp;ptr);</li>
+<li style="list-style-type: none">&#09;&#09;&#09;b = atof(token);</li>
+<li style="list-style-type: none">&#09;&#09;&#09;//存入z</li>
+<li style="list-style-type: none">&#09;&#09;&#09;token = strtok_s(NULL, seps, &amp;ptr);</li>
+<li style="list-style-type: none">&#09;&#09;&#09;c = atof(token);</li>
+<li style="list-style-type: none">&#09;&#09;&#09;//将x,y,z构造point类，存入point数组中</li>
+<li style="list-style-type: none">&#09;&#09;&#09;Point pt(a, b, c);</li>
+<li style="list-style-type: none">&#09;&#09;&#09;points.push_back(pt);</li>
+<li style="list-style-type: none">&#09;&#09;}</li>
+<li style="list-style-type: none">&#09;}else {</li>
+<li style="list-style-type: none">&#09;&#09;cout &lt;&lt; "No such file!" &lt;&lt; endl;</li>
+<li style="list-style-type: none">&#09;}</li>
+<li style="list-style-type: none">&#09;for (auto pt : points) {//输出points所有点的坐标</li>
+<li style="list-style-type: none">&#09;&#09;pt.printPoints();</li>
+<li style="list-style-type: none">&#09;}</li>
+<li style="list-style-type: none">&nbsp;</li>
+<li style="list-style-type: none">&#09;return 0;</li>
+<li style="list-style-type: none">}</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+</body></html>
