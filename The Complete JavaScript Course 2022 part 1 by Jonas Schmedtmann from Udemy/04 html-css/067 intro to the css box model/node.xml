@@ -2,12 +2,12 @@
 <node>
 <version>6</version>
 <dict>
-  <key>title</key><string>064 Basic HTML</string>
-  <key>nodeid</key><string>14bcd9da-b148-4d39-8736-e443e7143fb4</string>
-  <key>modified_time</key><integer>1671639351</integer>
+  <key>title</key><string>067 Intro to the CSS box model</string>
+  <key>nodeid</key><string>e0b28d15-c82c-4419-b681-85ca873f8458</string>
+  <key>modified_time</key><integer>1671645314</integer>
   <key>version</key><integer>6</integer>
   <key>content_type</key><string>text/xhtml+xml</string>
-  <key>created_time</key><integer>1671637139</integer>
+  <key>created_time</key><integer>1671643207</integer>
   <key>info_sort_dir</key><integer>1</integer>
   <key>order</key><integer>3</integer>
   <key>info_sort</key><string>order</string>

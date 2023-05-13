@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Handling an _Esc_ press event</title>
+</head><body>Keyboard Events is a global event<br/>
+Because it does not happen on a single element<br/>
+<img src="image.png" /><br/>
+three typed of key event:<br/>
+1. keydown happens as song as you press down the keyboard<br/>
+2. keypress is fired continuously as we keep our finger on a certain key<br/>
+3. keyup is when your finger left the keyborad<br/>
+<br/>
+<img src="image 2.png" /><br/>
+Coding this event will happen no matter what key you press.<br/>
+And any time an event like this occurs js actually does in fact generate an object<br/>
+Which contains all the information about the event itself<br/>
+Then we can access it in the handler function<br/>
+<img src="image 4.png" /><br/>
+<img src="image 3.png" /><br/>
+<br/>
+So if we access the key property of this event object<br/>
+<img src="image 5.png" /><br/>
+<br/>
+<br/>
+It wil give something back like this:<br/>
+<img src="image 6.png" /><br/>
+<br/>
+DONE<br/>
+<img src="image 7.png" /><br/>
+<br/>
+<br/>
+<br/>
+<br/>
+</body></html>
