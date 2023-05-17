@@ -2,7 +2,7 @@
 <node>
 <version>6</version>
 <dict>
-  <key>expanded</key><true/>
+  <key>expanded</key><false/>
   <key>title</key><string>05: Guess My Number</string>
   <key>nodeid</key><string>06e0e304-ea9c-4435-8564-9fcc9d208da3</string>
   <key>modified_time</key><integer>1673594530</integer>
