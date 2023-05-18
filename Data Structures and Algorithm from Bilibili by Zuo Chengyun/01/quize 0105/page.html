@@ -2,18 +2,42 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Quize 01</title>
-</head><body><img src="image 3.png" /><br/>
+<title>Quize 01:05</title>
+</head><body><img src="image.png" /><br/>
+<span style="font-size: 16pt"><br/>
+timestamp: 31:00<br/>
 <br/>
-(1) :<br/>
+int a = 10;<br/>
+int b = 20;<br/>
+<br/>
+a = a ^ b<br/>
+b = a ^ b<br/>
+a = a ^ b<br/>
+<br/>
+yes<br/>
+<br/>
+for (int i = 0; i &lt; N ;i ++)<br/>
+&nbsp; &nbsp; &nbsp;for (int j = 0; j &lt; n; j++) {<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;swap (i, j)<br/>
+}<br/>
+<br/>
+no<br/>
+<br/>
+this swaping method can't be used to swap same elements, because it will change the original value to zero<br/>
+the latter method of using ^ to swap, can be applied to the arr[i] and arr[j]<br/>
+that means it will change the arr[i] element when i goes in the loop at a certain point and is equal to j<br/>
+<br/>
+////////////////////////////////////////////////<br/>
+<br/>
+</span>(1) :<br/>
 &nbsp; &nbsp; One number in an array appeared only odd times, other numbers appeared even times, what is the odd number<br/>
 &nbsp; &nbsp; &nbsp;requirements: Use the complexity of time: O(N)<br/>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Use the complexity of space: O(1)<br/>
 <ul><li style="list-style-type: none">int eor = eor ^ (every elements in the array)</li>
 <li style="list-style-type: none">then eor is the odd number, because a ^ 0 = a; b ^ b = 0; these two rules.</li>
 </ul>
-<img src="image.png" /><br/>
-<br/>
+<img src="image 2.png" /><br/>
+<span style="font-size: 16pt"><br/>
 (2):<br/>
 &nbsp; &nbsp; Two number in an array appeared only odd times, other numbers appeared even times, what are the odd numbers<br/>
 &nbsp; &nbsp; same requirements as (1):<br/>
@@ -32,8 +56,8 @@
 &nbsp;&#09;&#09;&#09;&#09;&#09;&#09;&#09;&#09;&#09; &nbsp;therefore the eor' will just be a in this case<br/>
 &nbsp;&#09;the final answer is:<br/>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;first odd number is eor'<br/>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;second odd number is eor' ^ eor.<br/>
+</span><span style="font-size: 16pt">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;second odd number is eor' ^ eor.</span><br/>
 <br/>
-<img src="image 2.png" /><br/>
+<img src="image 2 2.png" /><br/>
 <br/>
 this is genius btw.</body></html>
