@@ -2,7 +2,7 @@
 <node>
 <version>6</version>
 <dict>
-  <key>expanded</key><false/>
+  <key>expanded</key><true/>
   <key>title</key><string>06: Modal</string>
   <key>nodeid</key><string>9c7fd6e0-b866-4bc8-9165-42eacaf2e97e</string>
   <key>modified_time</key><integer>1673594532</integer>
