@@ -3,14 +3,14 @@
 <version>6</version>
 <dict>
   <key>expanded</key><true/>
-  <key>title</key><string>105 The Spread Operator (...)</string>
   <key>nodeid</key><string>8076cb9d-c213-424d-a4b2-7faead626206</string>
-  <key>modified_time</key><integer>1684758329</integer>
+  <key>modified_time</key><integer>1684924533</integer>
   <key>expanded2</key><true/>
-  <key>version</key><integer>6</integer>
   <key>content_type</key><string>text/xhtml+xml</string>
   <key>created_time</key><integer>1684758329</integer>
   <key>info_sort_dir</key><integer>1</integer>
+  <key>title</key><string>105 The Spread Operator (...)</string>
+  <key>version</key><integer>6</integer>
   <key>order</key><integer>2</integer>
   <key>info_sort</key><string>order</string>
 </dict>
