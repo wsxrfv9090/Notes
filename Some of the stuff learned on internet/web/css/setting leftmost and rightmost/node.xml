@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>Setting Leftmost and Rightmost</string>
+  <key>nodeid</key><string>a959655c-0a96-4b46-b0f2-c71d82d486df</string>
+  <key>modified_time</key><integer>1685454409</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1685454321</integer>
+  <key>order</key><integer>1</integer>
+</dict>
+</node>
