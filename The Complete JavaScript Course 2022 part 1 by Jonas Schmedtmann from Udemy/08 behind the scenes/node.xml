@@ -2,7 +2,7 @@
 <node>
 <version>6</version>
 <dict>
-  <key>expanded</key><true/>
+  <key>expanded</key><false/>
   <key>title</key><string>08: Behind The Scenes</string>
   <key>nodeid</key><string>ced2e905-ae18-4a4e-abc7-f7fe328428ec</string>
   <key>modified_time</key><integer>1673594534</integer>
