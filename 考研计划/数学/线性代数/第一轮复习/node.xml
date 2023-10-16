@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>expanded</key><true/>
+  <key>duplicate_of</key><string>70b38426-43fe-40fd-9e6d-d7ace5f03279</string>
+  <key>nodeid</key><string>c49cc58f-769f-4a97-a824-dbeb490ff376</string>
+  <key>modified_time</key><integer>1697434451</integer>
+  <key>content_type</key><string>application/x-notebook-dir</string>
+  <key>created_time</key><integer>1697434451</integer>
+  <key>info_sort_dir</key><integer>1</integer>
+  <key>icon</key><string>folder-blue.png</string>
+  <key>title</key><string>第一轮复习</string>
+  <key>version</key><integer>6</integer>
+  <key>order</key><integer>1</integer>
+  <key>info_sort</key><string>order</string>
+</dict>
+</node>
