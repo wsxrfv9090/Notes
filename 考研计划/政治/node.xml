@@ -2,7 +2,7 @@
 <node>
 <version>6</version>
 <dict>
-  <key>expanded</key><false/>
+  <key>expanded</key><true/>
   <key>nodeid</key><string>b4714646-088b-42ea-80a6-02ed23f5df28</string>
   <key>modified_time</key><integer>1697433496</integer>
   <key>content_type</key><string>application/x-notebook-dir</string>
