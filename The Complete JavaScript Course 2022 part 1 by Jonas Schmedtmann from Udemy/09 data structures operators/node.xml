@@ -2,7 +2,7 @@
 <node>
 <version>6</version>
 <dict>
-  <key>expanded</key><true/>
+  <key>expanded</key><false/>
   <key>title</key><string>09: Data Structures Operators</string>
   <key>nodeid</key><string>d5cf3643-f118-4513-b7b4-a22007683fe1</string>
   <key>modified_time</key><integer>1673594536</integer>

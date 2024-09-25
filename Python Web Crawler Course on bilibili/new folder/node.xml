@@ -2,6 +2,7 @@
 <node>
 <version>6</version>
 <dict>
+  <key>expanded</key><true/>
   <key>title</key><string>New Folder</string>
   <key>nodeid</key><string>51e18f04-7518-401a-87f5-7e436de7bd1a</string>
   <key>modified_time</key><integer>1696493632</integer>
